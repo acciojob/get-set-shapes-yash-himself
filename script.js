@@ -18,8 +18,12 @@ get height = function(){
 class Square extends Rectangle {
 	constructor(width,height){
 		super(width,height)
+	}
+
+	getPerimeter(){
 		return width*4;
 	}
+	
 }
 
 // Do not change the code below this line
