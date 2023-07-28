@@ -2,13 +2,13 @@
 class Rectangle {
 	
 	constructor(width,height){this.width = width;this.height = height;}
-	getArea = (width,height){
+	getArea(width,height){
 		return width*height;
 	}
-get width = function(){
+get width(){
 	return this.width;
 }
-get height = function(){
+get height(){
 	return this.height;
 }
 
